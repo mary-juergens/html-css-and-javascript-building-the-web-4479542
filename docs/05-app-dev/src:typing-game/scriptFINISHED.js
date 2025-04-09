@@ -1,13 +1,17 @@
+// inside script.js
 // all of our quotes
+
+
 const quotes = [
-    'It is our choices, Harry, that show what we truly are, far more than our abilities.',
-    'Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.',
-    'It does not do to dwell on dreams and forget to live.',
-    'To the well-organized mind, death is but the next great adventure.',
-    'We must all face the choice between what is right and what is easy.',
-    'Curiosity is not a sin... But we should exercise caution with our curiosity... yes, indeed.',
-    'Indifference and neglect often do much more damage than outright dislike.',
+    'When you have eliminated the impossible, whatever remains, however improbable, must be the truth.',
+    'There is nothing more deceptive than an obvious fact.',
+    'I ought to know by this time that when a fact appears to be opposed to a long train of deductions it invariably proves to be capable of bearing some other interpretation.',
+    'I never make exceptions. An exception disproves the rule.',
+    'What one man can invent another can discover.',
+    'Nothing clears up a case so much as stating it to another person.',
+    'Education never ends, Watson. It is a series of lessons, with the greatest for the last.',
 ];
+
 
 // store the list of words and the index of the word the player is currently typing
 let words = [];
